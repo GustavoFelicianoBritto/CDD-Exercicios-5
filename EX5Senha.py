@@ -5,12 +5,12 @@ error = 3
 while error>0:
     passwordInput = input(f"Olá, {user} Por favor, digite sua senha (tentativas restantes {error}: ")
     if passwordInput == password:
-        print("Usuário logado")
+        print(f"\n===========\nUsuário logado\n===========")
         break
     else:
         error-=1
         if error<=0:
-            print("Tentativas excedidas")
+            print("Tentativas excedidas, conta bloqueada!!!")
 
 
 
