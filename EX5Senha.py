@@ -3,7 +3,7 @@ password = "123456"
 error = 3
 
 while error>0:
-    passwordInput = input(f"Olá, {user} Por favor, digite sua senha (tentativas restantes {error}: ")
+    passwordInput = input(f"Olá, {user} Por favor, digite sua senha (tentativas restantes {error}): ")
     if passwordInput == password:
         print(f"\n===========\nUsuário logado\n===========")
         break
