@@ -1,16 +1,12 @@
-soma=0
 while True:
     nota1=float(input("Digite a primeira nota: ").replace(',','.'))
-    if nota1>0 and nota1<=10:
-        soma+=nota1
-        print("\n")
+    if nota1>=0 and nota1<=10:
         break
 while True:
     nota2=float(input("Digite agora a segunda nota: ").replace(',','.'))
-    if nota2>0 and nota2<=10:
-        soma+=nota2
+    if nota2>=0 and nota2<=10:
         break
-media = soma/2
+media = (nota1+nota2)/2
 print(f"\nA média do aluno foi {media}\nNota 1: {nota1}\nNota 2: {nota2}")
 
 
