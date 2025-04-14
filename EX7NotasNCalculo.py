@@ -11,6 +11,6 @@ while repetir=="s":
             break
     media = (nota1 + nota2) / 2
     print(f"\nA média do aluno foi {media}\nNota 1: {nota1}\nNota 2: {nota2}")
-    repetir = input("\nDeseja realizar novo calculo? S- Sim N-Não").lower()
+    repetir = input("\nDeseja realizar novo calculo? S- Sim N-Não: ").lower()
 
 
